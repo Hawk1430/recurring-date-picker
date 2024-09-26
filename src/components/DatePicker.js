@@ -12,6 +12,7 @@ const DatePicker = ({
 
   const handleRecurrencePatternChange = (e) => {
     setRecurrencePattern(e.target.value);
+    console.log(selectedRecurrenceDate);
   };
 
   const handleRecurrenceDateSelect = (date) => {

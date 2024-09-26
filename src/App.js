@@ -7,7 +7,6 @@ const App = () => {
   const [endDate, setEndDate] = useState(null);
   const [recurrencePattern, setRecurrencePattern] = useState("");
   const [recurringDates, setRecurringDates] = useState([]);
-  const [selectedDates, setSelectedDates] = useState([]); // Added selectedDates state
 
   const calculateRecurringDates = (recurrenceDate) => {
     const start = new Date(startDate);
